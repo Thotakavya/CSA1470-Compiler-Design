@@ -1,0 +1,15 @@
+%{
+#include<stdio.h>
+%}
+%% if else {printf("%S is a keyword,YYtext);}
+[0-9]+{printf("%S is an alphabet,YYtext);}
+;
+%%
+int main()
+{
+printf("Enter the input string:");
+YYlex():}
+int yywrap()
+{
+return 1;
+}
